@@ -1,0 +1,5 @@
+example@email.com
+johndoe123@example.com
+myemail123@gmail.com
+testemail@example.co
+user123@example.net

@@ -1,0 +1,53 @@
+{
+    "books":[
+    {
+        "Title":"Harry Potter and the Philosopher's Stone",
+        "Author":"J.K. Rowling",
+        "Publication_Year":1997,
+        "ISBN":"978-0-7475-3269-6"
+    },
+    {
+        "Title":"Pride and Prejudice",
+        "Author":"Jane Austen",
+        "Publication_Year":1813,
+        "ISBN":"978-0486284736"
+    },
+    {
+        "Title":"The Catcher in the Rye",
+        "Author":"J.D. Salinger",
+        "Publication_Year":1951,
+        "ISBN":"978-0316769488"
+    },
+    {
+        "Title":"To the Lighthouse",
+        "Author":"Virginia Woolf",
+        "Publication_Year":1927,
+        "ISBN":"978-0156907392"
+    },
+    {
+        "Title":"The Hitchhiker's Guide to the Galaxy",
+        "Author":"Douglas Adams",
+        "Publication_Year":1979,
+        "ISBN":"978-0345391803"
+    },
+    {
+        "Title":"The Partner",
+        "Author":"John Grisham",
+        "Publication_Year":1997,
+        "ISBN":"978-0385339100"
+    },
+    {
+        "Title":"Green Eggs and Ham",
+        "Author":"Dr. Seuss",
+        "Publication_Year":1960,
+        "ISBN":"978-0394800165"
+    },
+    {
+        "Title":"A Canticle for Leibowitz",
+        "Author":"Walter M. Miller Jr.",
+        "Publication_Year":1960,
+        "ISBN":"978-0060892999"
+    }
+   
+]
+}
