@@ -1,0 +1,7 @@
+{
+    "user":[
+    {"id":1,"name":"john","email":"john@gmail.com","age":25},
+    {"id":2,"name":"max","email":"max@gmail.com","age":28},
+    {"id":3,"name":"jyothsna","email":"jyothsna@gmail.com","age":22}
+    ]
+}
