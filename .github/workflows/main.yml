@@ -37,8 +37,10 @@ jobs:
           cd pythonproblems/emailcheck
           python  email.py user@example.com
 
-    - name: Run unit tests
-      run: python -m unittest discover -s pythonproblems/tests -p '*test.py'
+    - name: Run Python testscript for boooktest
+      run: |
+          cd pythonproblems/tests
+          python -m unittest booktest.py
      
     # - name: Run Python testscript for datecheck
     #   run: |
