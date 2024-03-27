@@ -6,7 +6,7 @@ import os
 import sys
 
 # Import the functions to be tested
-sys.path.insert(1,r'C:\Users\SweedalMathias\Desktop\angularproject\pythonproblems\books')
+sys.path.insert(1,r'pythonproblems/books/books.py')
 from books import load_book_data, search_books_by_year, get_publication_year
 
 class TestBookFunctions(unittest.TestCase):
