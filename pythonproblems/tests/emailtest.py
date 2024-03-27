@@ -1,13 +1,13 @@
 from unittest.mock import patch, MagicMock
 import unittest
 import sys
-sys.path.insert(1, r'pythonproblems/datecheck')
+sys.path.insert(1, r'pythonproblems/emailcheck')
 from email import valid_email
 
 class TestDateValidator(unittest.TestCase):
 
     def test_valid_email(self):
-        with open('tests/mocks/valid_email.txt', 'r') as file: 
+        with open('pythonproblems/tests/mocks/valid_email.txt', 'r') as file: 
             valid_emails = file.readlines()
         
         for email_str in valid_emails:
@@ -18,7 +18,7 @@ class TestDateValidator(unittest.TestCase):
                 self.assertTrue(result,f"Expected '{email_str.strip()}' to be a valid email")
 
     def test_invalid_email(self):
-        with open('tests/mocks/invalid_email.txt', 'r') as file:
+        with open('pythonproblems/tests/mocks/invalid_dates.txt', 'r') as file:
             invalid_emails = file.readlines()
         
         for email_str in invalid_emails:
