@@ -39,8 +39,7 @@ jobs:
 
     - name: Run Python testscript for boooktest
       run: |
-          cd pythonproblems/tests
-          python -m unittest booktest.py
+          python -m unittest pythonproblems/tests/booktest.py
      
     # - name: Run Python testscript for datecheck
     #   run: |
