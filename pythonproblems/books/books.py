@@ -66,7 +66,7 @@ def get_publication_year():
 #     if data:
 #         search_books_by_year(data, get_publication_year())
 def main():
-    file_path = "./books/books.json"
+    file_path ="pythonproblems/books/books.json"
     data = load_book_data(file_path)
     
     if data:
