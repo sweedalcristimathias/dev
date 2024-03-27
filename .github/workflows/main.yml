@@ -15,6 +15,12 @@ jobs:
       with:
         python-version: 3.x
 
+    - name: Debugging - List files in workspace
+      run: ls -l
+
+    - name: Debugging - Print current directory
+      run: pwd
+
     - name: Run Python script for books
       run: python books.py
 
