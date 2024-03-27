@@ -30,6 +30,11 @@ jobs:
       run: |
           cd pythonproblems/datecheck
           python  date.py "2024-03-28"
+          
+    - name: Run Python script for emailcheck
+      run: |
+          cd pythonproblems/emailcheck
+          python  email.py
 
     # - name: Run Python test  for books
     #   run: |
