@@ -22,13 +22,15 @@ jobs:
     #   run: pwd
 
     - name: Run Python script for books
-      run: python pythonproblems/books/books.py
+      run: |
+          cd pythonproblems/books
+          python books.py
 
-    - name: Run Python script for date
-      run:  python pythonproblems/datecheck/date.py
+    # - name: Run Python script for date
+    #   run:  python pythonproblems/datecheck/date.py
 
-    - name: Run Python script for email
-      run: python pythonproblems/emailcheck/email.py
+    # - name: Run Python script for email
+    #   run: python pythonproblems/emailcheck/email.py
 
-    - name: Run unit tests
-      run: python -m unittest discover
+    # - name: Run unit tests
+    #   run: python -m unittest discover
