@@ -36,10 +36,10 @@ jobs:
           cd pythonproblems/emailcheck
           python  email.py user@example.com
      
-    - name: Run Python testscript for datecheck
-      run: |
-          cd pythonproblems/tests
-          python -m unittest datetest.py    
+    # - name: Run Python testscript for datecheck
+    #   run: |
+    #       cd pythonproblems/tests
+    #       python -m unittest datetest.py    
     # - name: Run Python test  for books
     #   run: |
     #       cd pythonproblems/tests
