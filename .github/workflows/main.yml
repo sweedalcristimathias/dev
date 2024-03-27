@@ -38,7 +38,7 @@ jobs:
           python  email.py user@example.com
 
     - name: Run unit tests
-      run: python -m unittest discover -s pythonproblems -p '*test.py'
+      run: python -m unittest discover -s pythonproblems/tests -p '*test.py'
      
     # - name: Run Python testscript for datecheck
     #   run: |
