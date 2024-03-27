@@ -29,7 +29,7 @@ jobs:
     - name: Run Python script for datecheck
       run: |
           cd pythonproblems/datecheck
-          python python date.py "2024-03-28"
+          python  date.py "2024-03-28"
 
     # - name: Run Python test  for books
     #   run: |
