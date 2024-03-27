@@ -24,7 +24,8 @@ jobs:
     - name: Run Python script for books
       run: |
           cd pythonproblems/books
-          python books.py books.json
+          python books.py
+          python books.json
           
     - name: Run Python script for datecheck
       run: |
