@@ -37,9 +37,13 @@ jobs:
           cd pythonproblems/emailcheck
           python  email.py user@example.com
 
-    - name: Run Python testscript for boooktest
+    # - name: Run Python testscript for boooktest
+    #   run: |
+    #       python -m unittest pythonproblems/tests/booktest.py
+    
+    - name: Run Python testscript for datecheck
       run: |
-          python -m unittest pythonproblems/tests/booktest.py
+          python -m unittest pythonproblems/tests/datetest.py
      
     # - name: Run Python testscript for datecheck
     #   run: |
