@@ -7,7 +7,8 @@ import sys
 
 # Import the functions to be tested
 sys.path.insert(1,r'pythonproblems/books/books.py')
-from ..books import load_book_data, search_books_by_year, get_publication_year
+from pythonproblems.books import load_book_data, search_books_by_year, get_publication_year
+
 
 class TestBookFunctions(unittest.TestCase):
     def setUp(self):
