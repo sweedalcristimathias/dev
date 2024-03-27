@@ -1,0 +1,28 @@
+name: Python Validation
+
+on: [push, pull_request]
+
+jobs:
+  validate_python:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Run Python script for books
+      run: python books.py
+
+    - name: Run Python script for date
+      run: python date.py
+
+    - name: Run Python script for email
+      run: python email.py
+
+    - name: Run unit tests
+      run: python -m unittest discover
