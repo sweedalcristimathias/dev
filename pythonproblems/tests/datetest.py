@@ -1,7 +1,7 @@
 from unittest.mock import patch, MagicMock
 import unittest
 import sys
-sys.path.insert(1, r'C:\Users\SweedalMathias\Desktop\angularproject\pythonproblems\datecheck')
+sys.path.insert(1, r'pythonproblems/datecheck')
 from date import validate_date
 
 class TestDateValidator(unittest.TestCase):
