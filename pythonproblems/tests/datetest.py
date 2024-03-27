@@ -7,7 +7,7 @@ from date import validate_date
 class TestDateValidator(unittest.TestCase):
 
     def test_valid_dates(self):
-        with open('tests/mocks/valid_dates.txt', 'r') as file: 
+        with open('pythonproblems/tests/mocks/valid_dates.txt', 'r') as file: 
             valid_dates = file.readlines()
         
         for date_str in valid_dates:
@@ -18,7 +18,7 @@ class TestDateValidator(unittest.TestCase):
                 self.assertTrue(result,f"Expected '{date_str.strip()}' to be a valid date")
 
     def test_invalid_dates(self):
-        with open('tests/mocks/invalid_dates.txt', 'r') as file:
+        with open('pythonproblems/tests/mocks/invalid_dates.txt', 'r') as file:
             invalid_dates = file.readlines()
         
         for date_str in invalid_dates:
