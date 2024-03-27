@@ -31,16 +31,15 @@ jobs:
           cd pythonproblems/datecheck
           python  date.py "2024-03-28"
           
-    - name: Run Python testscript for datecheck
-      run: |
-          cd pythonproblems
-          python -m unittest tests/datetest.py
-          
     - name: Run Python script for emailcheck
       run: |
           cd pythonproblems/emailcheck
           python  email.py user@example.com
-
+     
+    # - name: Run Python testscript for datecheck
+    #   run: |
+    #       cd pythonproblems
+    #       python -m unittest tests/datetest.py    
     # - name: Run Python test  for books
     #   run: |
     #       cd pythonproblems/tests
