@@ -34,7 +34,7 @@ jobs:
     - name: Run Python script for emailcheck
       run: |
           cd pythonproblems/emailcheck
-          python  email.py
+          python  email.py user@example.com
 
     # - name: Run Python test  for books
     #   run: |
