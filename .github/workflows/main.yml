@@ -15,20 +15,20 @@ jobs:
       with:
         python-version: 3.x
 
-    - name: Debugging - List files in workspace
-      run: ls -l
+    # - name: Debugging - List files in workspace
+    #   run: ls -l
 
-    - name: Debugging - Print current directory
-      run: pwd
+    # - name: Debugging - Print current directory
+    #   run: pwd
 
     - name: Run Python script for books
-      run: python books.py
+      run: python pythonproblems/books/books.py
 
     - name: Run Python script for date
-      run: python date.py
+      run:  python pythonproblems/datecheck/date.py
 
     - name: Run Python script for email
-      run: python email.py
+      run: python pythonproblems/emailcheck/email.py
 
     - name: Run unit tests
       run: python -m unittest discover
