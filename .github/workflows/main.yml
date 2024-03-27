@@ -44,6 +44,10 @@ jobs:
     - name: Run Python testscript for datecheck
       run: |
           python -m unittest pythonproblems/tests/datetest.py
+          
+    - name: Run Python testscript for emailcheck
+      run: |
+          python -m unittest pythonproblems/tests/emailtest.py
      
     # - name: Run Python testscript for datecheck
     #   run: |
