@@ -41,7 +41,10 @@ jobs:
     # - name: Run Python testscript for boooktest
     #   run: |
     #       python -m unittest pythonproblems/tests/booktest.py
-    
+    - name: Run Python testscript for booktest
+      run: |
+          python -m unittest pythonproblems/tests/booktest.py
+          
     - name: Run Python testscript for datecheck
       run: |
           python -m unittest pythonproblems/tests/datetest.py
