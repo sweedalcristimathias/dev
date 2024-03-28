@@ -1,4 +1,4 @@
-#checking to see if it works
+#checks if its working
 name: Python Validation
 
 on: [push, pull_request]
