@@ -6,7 +6,7 @@ def load_book_data(file_path):
     """
     Load book data from a JSON file.
 
-    Args:
+    Args:s
     - file_path (str): The path to the JSON file containing book data.
 
     Returns:
