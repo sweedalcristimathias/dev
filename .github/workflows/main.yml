@@ -50,20 +50,4 @@ jobs:
       run: |
           python -m unittest pythonproblems/tests/emailtest.py
      
-    # - name: Run Python testscript for datecheck
-    #   run: |
-    #       cd pythonproblems/tests
-    #       python -m unittest datetest.py    
-    # - name: Run Python test  for books
-    #   run: |
-    #       cd pythonproblems/tests
-    #       python booktest.py
-
-    # - name: Run Python script for date
-    #   run:  python pythonproblems/datecheck/date.py
-
-    # - name: Run Python script for email
-    #   run: python pythonproblems/emailcheck/email.py
-
-    # - name: Run unit tests
-    #   run: python -m unittest discover
+    
